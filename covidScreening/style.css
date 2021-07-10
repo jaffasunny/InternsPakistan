@@ -1,0 +1,26 @@
+.header {
+  background-color: rgb(233, 236, 239);
+  border-bottom-left-radius: 8px;
+}
+
+.logo img {
+  height: 70px;
+  width: auto;
+}
+
+.hbody img {
+  height: 330px;
+  width: auto;
+}
+
+.hinfo p {
+  font-size: 19px;
+}
+
+.cimg img {
+  height: 80px;
+}
+
+.ctxt p {
+  font-size: 18px;
+}
