@@ -16,79 +16,33 @@
 
 <body>
     <div class="container-fluid header">
-        <div class="row">
-            <div class="col-sm-3 logo mt-4 mb-3 offset-1">
-                <img class="ml-2" src="images/logo.png" alt="Main Logo">
+        <div class="row justify-content-between">
+            <div class="col-4 col-lg-4 logo">
+                <img class="mt-4" src="images/logo.png" alt="Main Logo">
             </div>
-        </div>
-        <div class="row hbody offset-1">
-            <div class="col-sm-7 hinfo">
-                <h2>
-                    COVID-19 Screening Tool
-                </h2>
-                <p>Use this self-assessment tool to help determine whether you need to be tested for COVID-19.
-                    <br><br>
-                    You can complete this assesment for yourself or on behalf of someone else, if they are not able.
-                </p>
-            </div>
-            <div class="col-sm-4 mt-4">
-                <img src="images/covid19screen.png" alt="covid19screen">
-            </div>
-        </div>
-        <div class="row offset-1">
-            <div class="col-sm-11 mb-5">
-                <button type="button" class="btn btn-primary btn-lg btn-block">Start Screening</button>
+            <div class="col-4 col-lg-4 pr-0 text-right mt-4">
+                <i class="bi bi-x offset-10 text-muted"></i>
             </div>
         </div>
     </div>
 
-    <div class="container footer">
+    <div class="container-fluid footer">
         <div class="row">
-            <div class="col-sm-10 offset-1 mt-4">
-                <h2>More Information</h2>
+            <div class="col-12 mt-4 ml-4">
+                <h1>Do you have Fever above 101.4?</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-10 offset-1 mt-4">
+            <div class="col-4 mt-6 offset-3 mt-5 mb-5">
                 <div class="row">
-                    <div class="col-sm-2 cimg">
-                        <img src="images/virus.png" alt="virus image">
-                    </div>
-                    <div class="col-sm-8 offset-1 ctxt">
-                        <h3>What is Covid-19?</h3>
-                        <p class="text-muted">Coronavirus disease (COVID-19) is an infectious disease ...</p>
-                    </div>
-                    <div class="col-sm-1 mt-4">
-                        <a href="#"><i class="bi bi-chevron-right text-secondary"></i></a>
-                    </div>
+                    <img class="feverimg" src="images/fever.png" alt="Fever Image">
                 </div>
-                <hr class="mb-4">
-                <div class="row">
-                    <div class="col-sm-2 cimg">
-                        <img src="images/symptoms.png" alt="virus image">
-                    </div>
-                    <div class="col-sm-8 offset-1 ctxt">
-                        <h3>What are its Symptomps</h3>
-                        <p class="text-muted">The COVID-19 virus affects different people in different ways ...</p>
-                    </div>
-                    <div class="col-sm-1 mt-4">
-                        <a href="#"><i class="bi bi-chevron-right text-secondary"></i></a>
-                    </div>
-                </div>
-                <hr class="mb-4">
-                <div class="row">
-                    <div class="col-sm-2 cimg">
-                        <img src="images/prevent.png" alt="virus image">
-                    </div>
-                    <div class="col-sm-8 offset-1 ctxt">
-                        <h3>How can you prevent it?</h3>
-                        <p class="text-muted">There's currently no vaccine to prevent coronavirus disease...</p>
-                    </div>
-                    <div class="col-sm-1 mt-4">
-                        <a href="#"><i class="bi bi-chevron-right text-secondary"></i></a>
-                    </div>
-                </div>
-                <hr class="mb-4">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 col-lg-6 mb-5 offset-1 offset-lg-3">
+                <button type="button" class="btn btn-primary btn-lg btn-block">Yes, I do</button>
+                <button type="button" class="btn btn-primary btn-lg btn-block">No, I don't</button>
             </div>
         </div>
     </div>

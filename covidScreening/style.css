@@ -21,7 +21,6 @@ body {
   font-size: 15px;
 }
 
-
 .hbody h2,
 .footer h2 {
   font-size: 25px;
@@ -33,4 +32,9 @@ body {
 
 .ctxt p {
   font-size: 14px;
+}
+
+.feverimg {
+  height: 300px;
+  width: auto;
 }
