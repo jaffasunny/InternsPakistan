@@ -1,8 +1,9 @@
 body {
-  background-color: rgb(233, 236, 239);
+  background-color: white;
 }
 
 .header {
+  background-color: rgb(233, 236, 239);
   border-bottom-left-radius: 8px;
 }
 
@@ -20,9 +21,6 @@ body {
   font-size: 15px;
 }
 
-.footer{
-  background-color: white;
-}
 
 .hbody h2,
 .footer h2 {
