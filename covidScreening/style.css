@@ -4,6 +4,7 @@ body {
 
 .header {
   background-color: rgb(233, 236, 239);
+  height: 8%;
   border-bottom-left-radius: 8px;
 }
 
