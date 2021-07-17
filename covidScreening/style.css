@@ -39,3 +39,25 @@ body {
   height: 300px;
   width: auto;
 }
+
+.q1-img{
+  height: 250px;
+}
+
+.modal-content{
+  height: 90%;
+}
+
+.bottom-modal{
+  position: fixed;
+  bottom: 10%;
+  width: 76%;
+}
+
+.question .row{
+  display: none;
+}
+
+.question .active{
+  display: block;
+}
